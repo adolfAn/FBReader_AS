@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Spanish zlibrary resources, by Antonio Trueba, updated by Francisco Alvarado -->
+<!-- CHANGELOG
+	17-06-2015: Updated by Pilar Mera
+	19-09-2013: Updated (Diego Bernardi, sponsored by Panacea Supplies)
+	11-05-2012: Update release as per FBReader v1.6.5 (Francisco Alvarado)
+	30-07-2011: First complete release as per FBReader v. 1.1.9 (Antonio Trueba)
+-->
+<resources>
+	<node name="dialog">
+		<node name="button">
+			<node name="ok" value="Aceptar"/>
+			<node name="cancel" value="Cancelar"/>
+			<node name="yes" value="Sí"/>
+			<node name="no" value="No"/>
+			<node name="apply" value="Aplicar"/>
+		</node>
+		<node name="networkError">
+			<node name="title" value="Error de red"/>
+			<node name="unknownErrorMessage" value="Error desconocido"/>
+			<node name="operationTimedOutMessage" value="El tiempo para la operación expiró"/>
+			<node name="somethingWrongMessage" value="Algo ha fallado con&#10;%s"/>
+			<node name="couldntCreateDirectoryMessage" value="No se pudo crear el directorio&#10;%s"/>
+			<node name="couldntCreateFileMessage" value="No se pudo crear el archivo&#10;%s"/>
+			<node name="couldntConnectMessage" value="No se pudo conectar al servidor&#10;%s"/>
+			<node name="couldntResolveHostMessage" value="No se pudo resolver el servidor&#10;%s"/>
+			<node name="authenticationFailed" value="La autenticación falló"/>
+			<node name="unsupportedProtocol" value="Protocolo no soportado"/>
+			<node name="invalidURL" value="URL no válida"/>
+			<node name="hostCantBeReached" value="No se puede conectar al servidor&#10;%s"/>
+			<node name="connectionRefused" value="Conexión rechazada por&#10;%s"/>
+			<node name="networkNotAvailable" value="La red no está disponible"/>
+		</node>
+	</node>
+	<node name="color">
+		<node name="red" value="Rojo"/>
+		<node name="green" value="Verde"/>
+		<node name="blue" value="Azul"/>
+	</node>
+	<node name="language">
+		<node name="ar" value="Árabe"/>
+		<node name="be" value="Bielorruso"/>
+		<node name="bg" value="Búlgaro"/>
+		<node name="ca" value="Catalán"/>
+		<node name="cs" value="Checo"/>
+		<node name="da" value="Danés"/>
+		<node name="de" value="Alemán"/>
+		<node name="de-traditional" value="Alemán (ortografía tradicional)"/>
+		<node name="el" value="Griego"/>
+		<node name="en" value="Inglés"/>
+		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="eo" value="Esperanto"/>
+		<node name="es" value="Español"/>
+		<node name="eu" value="Vasco"/>
+		<node name="fa" value="Persa"/>
+		<node name="fi" value="Finlandés"/>
+		<node name="fr" value="Francés"/>
+		<node name="gl" value="Gallego"/>
+		<node name="he" value="Hebreo"/>
+		<node name="hu" value="Húngaro"/>
+		<node name="hy" value="Armenio"/>
+		<node name="id" value="Indonesio"/>
+		<node name="it" value="Italiano"/>
+		<node name="ja" value="Japonés"/>
+		<node name="ka" value="Georgiano"/>
+		<node name="ko" value="Coreano"/>
+		<node name="lt" value="Lituano"/>
+		<node name="nb" value="Noruego"/>
+		<node name="nl" value="Holandés"/>
+		<node name="pl" value="Polaco"/>
+		<node name="pt" value="Portugués"/>
+		<node name="ro" value="Rumano"/>
+		<node name="ru" value="Ruso"/>
+		<node name="sr" value="Serbio"/>
+		<node name="sv" value="Sueco"/>
+		<node name="ta" value="Tamil"/>
+		<node name="th" value="Tailandés"/>
+		<node name="tr" value="Turco"/>
+		<node name="uk" value="Ucraniano"/>
+		<node name="vi" value="Vietnamita"/>
+		<node name="zh" value="Chino"/>
+		<node name="zh_TW" value="Chino (tradicional)"/>
+		<node name="any" value="Cualquiera"/>
+		<node name="other" value="Otro"/>
+		<node name="multi" value="Multilingüe"/>
+		<node name="system" value="Sistema"/>
+	</node>
+	<node name="boolean3">
+		<node name="on" value="Encendido"/>
+		<node name="off" value="Apagado"/>
+		<node name="unchanged" value="Sin cambios"/>
+	</node>
+	<node name="keyOptionView">
+		<node name="actionFor" value="Acción para tecla"/>
+	</node>
+</resources>

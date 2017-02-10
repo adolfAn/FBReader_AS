@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bookmarks_tabhost"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	>
+		<TabWidget
+			android:id="@android:id/tabs"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		/>
+		<FrameLayout
+			android:id="@android:id/tabcontent"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+		>
+			<ListView
+				android:id="@+id/bookmarks_this_book"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			/>
+			<ListView
+				android:id="@+id/bookmarks_all_books"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			/>
+			<FrameLayout
+				android:id="@+id/bookmarks_search"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			>
+				<ListView
+					android:id="@+id/bookmarks_search_results"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				/>
+			</FrameLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

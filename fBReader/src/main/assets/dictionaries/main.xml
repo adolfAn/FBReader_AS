@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionaries>
+	<dictionary
+		id="ColorDict"
+		title="ColorDict&#160;3"
+		package="com.socialnmobile.colordict"
+		action="colordict.intent.action.SEARCH"
+		dataKey="EXTRA_QUERY"
+		list="always"
+	/>
+	<dictionary
+		id="ColorDict2"
+		title="ColorDict&#160;Old&#160;Style"
+		package="com.socialnmobile.colordict"
+		class=".activity.Main"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+		list="always"
+	/>
+	<dictionary
+		id="dictan"
+		title="Dictan"
+		package="info.softex.dictan"
+		category="info.softex.dictan.EXTERNAL_DISPATCHER"
+		action="android.intent.action.VIEW"
+		dataKey="article.word"
+		role="dictionary"
+		list="always"
+	/>
+	<dictionary
+		id="Fora Dictionary"
+		package="com.ngc.fora"
+		class=".ForaDictionary"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+		list="always"
+	/>
+	<dictionary
+		id="Fora Dictionary Pro"
+		package="com.ngc.fora.android"
+		class=".ForaActivity"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+	/>
+	<dictionary
+		id="Free Dictionary . org"
+		title="Free&#160;Dictionary&#160;.&#160;org"
+		package="org.freedictionary"
+		class=".MainActivity"
+		action="android.intent.action.VIEW"
+		list="always"
+	/>
+	<dictionary
+		id="ABBYY Lingvo"
+		title="ABBYY&#160;Lingvo"
+		package="com.abbyy.mobile.lingvo.market"
+		action="com.abbyy.mobile.lingvo.intent.action.TRANSLATE"
+		dataKey="com.abbyy.mobile.lingvo.intent.extra.TEXT"
+		role="dictionary"
+	/>
+	<dictionary
+		id="Lingo Quiz Lite"
+		package="mnm.lite.lingoquiz"
+		class=".ExchangeActivity"
+		action="lingoquiz.intent.action.ADD_WORD"
+		dataKey="EXTRA_WORD"
+	/>
+	<dictionary
+		id="Lingo Quiz"
+		package="mnm.lingoquiz"
+		class=".ExchangeActivity"
+		action="lingoquiz.intent.action.ADD_WORD"
+		dataKey="EXTRA_WORD"
+	/>
+	<dictionary
+		id="Aard Dictionary"
+		package="aarddict.android"
+		class=".Article"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+	/>
+	<dictionary
+		id="Aard Dictionary Lookup"
+		package="aarddict.android"
+		class=".Lookup"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+	/>
+	<dictionary
+		id="Aard2 Dictionary"
+		package="itkach.aard2"
+		class=".ArticleCollectionActivity"
+		action="android.intent.action.SEND"
+		dataKey="query"
+	/>
+	<dictionary
+		id="LEO Dictionary"
+		package="org.leo.android.dict"
+		class=".LeoDict"
+		action="android.intent.action.VIEW"
+	/>
+	<dictionary
+		id="LEO Dictionary (old versions)"
+		package="org.leo.android.dict"
+		class=".LeoDict"
+		action="android.intent.action.SEARCH"
+		dataKey="query"
+	/>
+	<dictionary
+		id="Popup Dictionary"
+		package="com.barisatamer.popupdictionary"
+		class=".MainActivity"
+		action="android.intent.action.VIEW"
+	/>
+</dictionaries>
